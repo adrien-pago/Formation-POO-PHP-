@@ -2,7 +2,12 @@
     "name": "adpago/php-poo-formation",
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "Adpago\\PhpPooFormation\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
         }
     },
     "authors": [
